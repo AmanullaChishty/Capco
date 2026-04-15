@@ -1,0 +1,21 @@
+{
+  "description": "Partial ground truth for evaluating your matching system. These labels cover a subset of all possible record pairs. There are additional true matches in the data beyond what is labeled here.",
+  "cross_source_pairs": [
+    {"crm_id": "CRM-1001", "calendar_id": "CAL-A1", "match": true},
+    {"crm_id": "CRM-1002", "calendar_id": "CAL-A2", "match": true},
+    {"crm_id": "CRM-1006", "calendar_id": "CAL-A7", "match": true},
+    {"crm_id": "CRM-1008", "calendar_id": "CAL-A9", "match": true},
+    {"crm_id": "CRM-1011", "calendar_id": "CAL-A12", "match": true},
+    {"crm_id": "CRM-1014", "calendar_id": "CAL-A15", "match": true},
+    {"crm_id": "CRM-1016", "calendar_id": "CAL-A17", "match": true},
+    {"crm_id": "CRM-1017", "calendar_id": "CAL-A20", "match": true},
+    {"crm_id": "CRM-1001", "calendar_id": "CAL-A8", "match": false},
+    {"crm_id": "CRM-1004", "calendar_id": "CAL-A21", "match": false},
+    {"crm_id": "CRM-1008", "calendar_id": "CAL-A16", "match": false},
+    {"crm_id": "CRM-1006", "calendar_id": "CAL-A3", "match": false},
+    {"crm_id": "CRM-1009", "calendar_id": "CAL-A19", "match": false}
+  ],
+  "intra_source_duplicates": [
+    {"source": "calendar", "record_a": "CAL-A5", "record_b": "CAL-A6", "duplicate": true}
+  ]
+}
